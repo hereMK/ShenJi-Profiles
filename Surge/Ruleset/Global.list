@@ -445,7 +445,6 @@ DOMAIN-SUFFIX,mil
 
 # (IP Blackhole)
 # > Google
-DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,ampproject.org
@@ -543,3 +542,4 @@ DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN,international-gfe.download.nvidia.com
 DOMAIN,ocsp.apple.com
+DOMAIN,store-images.s-microsoft.com

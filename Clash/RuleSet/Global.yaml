@@ -446,7 +446,6 @@ payload:
 
   # (IP Blackhole)
   # > Google
-  - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,ampproject.org
@@ -544,3 +543,4 @@ payload:
   - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN,international-gfe.download.nvidia.com
   - DOMAIN,ocsp.apple.com
+  - DOMAIN,store-images.s-microsoft.com
