@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,.blogspot.,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,aka.ms,PROXY
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net,PROXY
 DOMAIN,az416426.vo.msecnd.net,PROXY
 DOMAIN,az668014.vo.msecnd.net,PROXY
 # > Facebook
@@ -74,6 +75,9 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 # > Akamai
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
+# > Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
+DOMAIN-SUFFIX,joinclubhouse.com,PROXY
 # > Others
 DOMAIN-SUFFIX,4shared.com,PROXY
 DOMAIN-SUFFIX,9cache.com,PROXY
@@ -204,6 +208,7 @@ DOMAIN-SUFFIX,globalvoices.org,PROXY
 DOMAIN-SUFFIX,goo.ne.jp,PROXY
 DOMAIN-SUFFIX,goodreads.com,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
+DOMAIN-SUFFIX,gravatar.com,PROXY
 DOMAIN-SUFFIX,greatfire.org,PROXY
 DOMAIN-SUFFIX,gumroad.com,PROXY
 DOMAIN-SUFFIX,hbg.com,PROXY
@@ -526,11 +531,22 @@ DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
 
 # (Network Jitter)
+# > Apple
+DOMAIN,appleid.apple.com,PROXY
+DOMAIN,developer.apple.com,PROXY
+DOMAIN,www.icloud.com,PROXY
+DOMAIN,ocsp.apple.com,PROXY
+DOMAIN,xp.apple.com,PROXY
+# > DigiCert
+DOMAIN,cacerts.digicert.com,PROXY
+DOMAIN,crl3.digicert.com,PROXY
+DOMAIN,crl4.digicert.com,PROXY
+DOMAIN,ocsp.digicert.com,PROXY
+# > Others
 DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,zaobao.com.sg,PROXY
 DOMAIN,international-gfe.download.nvidia.com,PROXY
-DOMAIN,ocsp.apple.com,PROXY
 DOMAIN,store-images.s-microsoft.com,PROXY
