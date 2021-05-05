@@ -88,8 +88,18 @@ DOMAIN-KEYWORD,uk-live,Streaming
 USER-AGENT,DAZN*,Streaming
 DOMAIN-SUFFIX,dazn.com,Streaming
 DOMAIN-SUFFIX,dazn-api.com,Streaming
+DOMAIN-SUFFIX,dazndn.com,Streaming
+DOMAIN-SUFFIX,indazn.com,Streaming
 DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
 DOMAIN-KEYWORD,voddazn,Streaming
+# > discovery+
+USER-AGENT,DPlus*,Streaming
+USER-AGENT,discovery+*,Streaming
+DOMAIN-SUFFIX,disco-api.com,Streaming
+DOMAIN-SUFFIX,discoveryplus.co.uk,Streaming
+DOMAIN-SUFFIX,discoveryplus.com,Streaming
+DOMAIN-SUFFIX,discoveryplus.in,Streaming
+DOMAIN-SUFFIX,dnitv.com,Streaming
 # > Disney+
 USER-AGENT,Disney+*,Streaming
 DOMAIN-SUFFIX,bamgrid.com,Streaming
@@ -113,15 +123,6 @@ DOMAIN-SUFFIX,fox.com,Streaming
 DOMAIN-SUFFIX,foxdcg.com,Streaming
 DOMAIN-SUFFIX,theplatform.com,Streaming
 DOMAIN-SUFFIX,uplynk.com,Streaming
-# > FOX+
-DOMAIN-SUFFIX,foxplus.com,Streaming
-# DOMAIN-SUFFIX,theplatform.com,Streaming
-DOMAIN,cdn-fox-networks-group-green.akamaized.net,Streaming
-DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,Streaming
-DOMAIN,foxsports01-i.akamaihd.net,Streaming
-DOMAIN,foxsports02-i.akamaihd.net,Streaming
-DOMAIN,foxsports03-i.akamaihd.net,Streaming
-DOMAIN,staticasiafox.akamaized.net,Streaming
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*,Streaming
 DOMAIN-SUFFIX,hbo.com,Streaming
@@ -129,6 +130,7 @@ DOMAIN-SUFFIX,hbogo.com,Streaming
 DOMAIN-SUFFIX,hbonow.com,Streaming
 USER-AGENT,HBOMAX*,Streaming
 DOMAIN-SUFFIX,hbomax.com,Streaming
+DOMAIN-SUFFIX,hbomaxcdn.com,Streaming
 # > HBO GO HKG
 USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
 DOMAIN-SUFFIX,hbogoasia.com,Streaming
@@ -236,6 +238,8 @@ DOMAIN-SUFFIX,cbsivideo.com,Streaming
 DOMAIN-SUFFIX,paramountplus.com,Streaming
 DOMAIN-SUFFIX,pplusstatic.com,Streaming
 DOMAIN,cbsi.live.ott.irdeto.com,Streaming
+DOMAIN,cbsplaylistserver.aws.syncbak.com,Streaming
+DOMAIN,cbsservice.aws.syncbak.com,Streaming
 # > PBS
 USER-AGENT,PBS*,Streaming
 DOMAIN-SUFFIX,pbs.org,Streaming
